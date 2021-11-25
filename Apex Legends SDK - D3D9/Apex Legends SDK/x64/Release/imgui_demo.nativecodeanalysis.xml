@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2105</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IH@Z</DECORATED>
+    <FUNCLINE>2105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2106</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IM@Z</DECORATED>
+    <FUNCLINE>2106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::VtxOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::VtxOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::TextureId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::TextureId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>984</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowWidgets</FUNCTION>
+    <DECORATED>?ShowDemoWindowWidgets@@YAXXZ</DECORATED>
+    <FUNCLINE>527</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>984</LINE>
+      <COLUMN>80</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ShowDemoWindowWidgets</FUNCTION>
+    <DECORATED>?ShowDemoWindowWidgets@@YAXXZ</DECORATED>
+    <FUNCLINE>527</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>5778</LINE>
+      <COLUMN>97</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>NodeFont</FUNCTION>
+    <DECORATED>?NodeFont@@YAXPEAUImFont@@@Z</DECORATED>
+    <FUNCLINE>5758</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_demo.cpp</FILENAME>
+      <LINE>6258</LINE>
+      <COLUMN>150</COLUMN>
+    </SFA>
+    <DEFECTCODE>6387</DEFECTCODE>
+    <DESCRIPTION>'buf' could be '0':  this does not adhere to the specification for the function 'memcpy'. </DESCRIPTION>
+    <FUNCTION>ExampleAppConsole::Strdup</FUNCTION>
+    <DECORATED>?Strdup@ExampleAppConsole@@SAPEADPEBD@Z</DECORATED>
+    <FUNCLINE>6258</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6258</LINE>
+        <COLUMN>88</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6258</LINE>
+        <COLUMN>115</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6258</LINE>
+        <COLUMN>150</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buf' is an In/Out argument to 'memcpy' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\vcruntime_string.h:43)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui_demo.cpp</FILENAME>
+        <LINE>6258</LINE>
+        <COLUMN>150</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buf' should not be NULL, because this is not consistent with the SAL annotation on 'memcpy'</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>

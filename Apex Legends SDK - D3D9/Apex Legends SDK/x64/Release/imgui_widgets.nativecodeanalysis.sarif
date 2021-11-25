@@ -1,0 +1,3654 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImGuiStorage::ImGuiStoragePair::<unnamed-tag>::val_p' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui.h"
+                },
+                "region": {
+                  "startLine": 2105,
+                  "startColumn": 9,
+                  "endLine": 2105,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiStoragePair@ImGuiStorage@@QEAA@IH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImGuiStorage::ImGuiStoragePair::<unnamed-tag>::val_p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImGuiStorage::ImGuiStoragePair::<unnamed-tag>::val_p' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui.h"
+                },
+                "region": {
+                  "startLine": 2106,
+                  "startColumn": 9,
+                  "endLine": 2106,
+                  "endColumn": 9
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiStoragePair@ImGuiStorage@@QEAA@IM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImGuiStorage::ImGuiStoragePair::<unnamed-tag>::val_p"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImDrawCmdHeader::VtxOffset' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui.h"
+                },
+                "region": {
+                  "startLine": 2298,
+                  "startColumn": 1,
+                  "endLine": 2298,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImDrawCmdHeader@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImDrawCmdHeader::VtxOffset"
+          }
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "Variable 'ImDrawCmdHeader::TextureId' is uninitialized. Always initialize a member variable (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui.h"
+                },
+                "region": {
+                  "startLine": 2298,
+                  "startColumn": 1,
+                  "endLine": 2298,
+                  "endColumn": 1
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImDrawCmdHeader@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "ImDrawCmdHeader::TextureId"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1570,
+                  "startColumn": 9,
+                  "endLine": 1570,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1586,
+                  "startColumn": 9,
+                  "endLine": 1586,
+                  "endColumn": 20
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1598,
+                  "startColumn": 9,
+                  "endLine": 1598,
+                  "endColumn": 33
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 1653,
+                  "startColumn": 9,
+                  "endLine": 1653,
+                  "endColumn": 19
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 2335,
+                  "startColumn": 29,
+                  "endLine": 2335,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 689,
+                  "startColumn": 36,
+                  "endLine": 689,
+                  "endColumn": 114
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?HotkeyButton@ImGui@@YA_NPEBDAEBUImVec2@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 879,
+                  "startColumn": 76,
+                  "endLine": 879,
+                  "endColumn": 113
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?CollapseButton@ImGui@@YA_NIAEBUImVec2@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiAxis' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 888,
+                  "startColumn": 16,
+                  "endLine": 888,
+                  "endColumn": 16
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?GetWindowScrollbarID@ImGui@@YAIPEAUImGuiWindow@@W4ImGuiAxis@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 1442,
+                  "startColumn": 74,
+                  "endLine": 1442,
+                  "endColumn": 91
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ProgressBar@ImGui@@YAXMAEBUImVec2@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 1442,
+                  "startColumn": 74,
+                  "endLine": 1442,
+                  "endColumn": 83
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ProgressBar@ImGui@@YAXMAEBUImVec2@@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiSeparatorFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 1602,
+                  "startColumn": 34,
+                  "endLine": 1602,
+                  "endColumn": 120
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?Separator@ImGui@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 1628,
+                  "startColumn": 24,
+                  "endLine": 1628,
+                  "endColumn": 74
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?SplitterBehavior@ImGui@@YA_NAEBUImRect@@IW4ImGuiAxis@@PEAM2MMMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 1764,
+                  "startColumn": 122,
+                  "endLine": 1764,
+                  "endColumn": 187
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?BeginCombo@ImGui@@YA_NPEBD0H@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2162,
+                  "startColumn": 9,
+                  "endLine": 2162,
+                  "endColumn": 29
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DataTypeApplyOpFromText@ImGui@@YA_NPEBD0HPEAX0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2168,
+                  "startColumn": 9,
+                  "endLine": 2168,
+                  "endColumn": 30
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?DataTypeApplyOpFromText@ImGui@@YA_NPEBD0HPEAX0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiInputTextFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 3576,
+                  "startColumn": 16,
+                  "endLine": 3576,
+                  "endColumn": 127
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?TempInputScalar@ImGui@@YA_NAEBUImRect@@IPEBDHPEAX1PEBX3@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 3916,
+                  "startColumn": 65,
+                  "endLine": 3916,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?STB_TEXTEDIT_INSERTCHARS@ImStb@@YA_NPEAUImGuiInputTextState@@HPEBGH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imstb_textedit.h"
+                },
+                "region": {
+                  "startLine": 1159,
+                  "startColumn": 130,
+                  "endLine": 1159,
+                  "endColumn": 164
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stb_textedit_discard_redo@ImStb@@YAXPEAUStbUndoState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imstb_textedit.h"
+                },
+                "region": {
+                  "startLine": 1167,
+                  "startColumn": 36,
+                  "endLine": 1167,
+                  "endColumn": 86
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stb_textedit_discard_redo@ImStb@@YAXPEAUStbUndoState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imstb_textedit.h"
+                },
+                "region": {
+                  "startLine": 1167,
+                  "startColumn": 36,
+                  "endLine": 1167,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?stb_textedit_discard_redo@ImStb@@YAXPEAUStbUndoState@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 4022,
+                  "startColumn": 63,
+                  "endLine": 4022,
+                  "endColumn": 76
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InsertChars@ImGuiInputTextCallbackData@@QEAAXHPEBD0@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'state'. "
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 4329,
+                  "startColumn": 9,
+                  "endLine": 4329,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InputTextEx@ImGui@@YA_NPEBD0PEADHAEBUImVec2@@HP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4125,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4126,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4133,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4134,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4135,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4137,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4138,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4139,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4140,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4141,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4142,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4143,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4146,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4148,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4149,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4150,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4151,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4153,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4154,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4156,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4157,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4158,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4187,
+                            "startColumn": 17
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4188,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4191,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4192,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4196,
+                            "startColumn": 26
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4198,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4199,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4200,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4202,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4203,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4204,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4205,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4207,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4208,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4210,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4212,
+                            "startColumn": 16
+                          }
+                        },
+                        "message": {
+                          "text": "'state' may be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4213,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4214,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4215,
+                            "startColumn": 42
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4258,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4279,
+                            "startColumn": 26
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'g.ActiveId==id&&state==0')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4280,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4283,
+                            "startColumn": 63
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4287,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4288,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4289,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4290,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4294,
+                            "startColumn": 38
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4305,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4306,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4309,
+                            "startColumn": 21
+                          }
+                        },
+                        "message": {
+                          "text": "Skip this branch, (assume '<branch condition>' is false)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4325,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4326,
+                            "startColumn": 20
+                          }
+                        },
+                        "message": {
+                          "text": "Enter this branch, (assume 'g.ActiveId==id')"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 4329,
+                            "startColumn": 36
+                          }
+                        },
+                        "message": {
+                          "text": "'state' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 4225,
+                  "startColumn": 47,
+                  "endLine": 4225,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InputTextEx@ImGui@@YA_NPEBD0PEADHAEBUImVec2@@HP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 4505,
+                  "startColumn": 57,
+                  "endLine": 4505,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?InputTextEx@ImGui@@YA_NPEBD0PEADHAEBUImVec2@@HP6AHPEAUImGuiInputTextCallbackData@@@ZPEAX@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 5077,
+                  "startColumn": 17,
+                  "endLine": 5077,
+                  "endColumn": 132
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ColorEdit4@ImGui@@YA_NPEBDQEAMH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6031",
+          "message": {
+            "text": "Return value ignored: 'sscanf'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 5079,
+                  "startColumn": 17,
+                  "endLine": 5079,
+                  "endColumn": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?ColorEdit4@ImGui@@YA_NPEBDQEAMH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiPlotType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 6756,
+                  "startColumn": 12,
+                  "endLine": 6756,
+                  "endColumn": 12
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?PlotEx@ImGui@@YAHW4ImGuiPlotType@@PEBDP6AMPEAXH@Z2HH1MMUImVec2@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6011",
+          "message": {
+            "text": "Dereferencing NULL pointer 'window'. See line 7030 for an earlier location where this can occur"
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 7059,
+                  "startColumn": 5,
+                  "endLine": 7059,
+                  "endColumn": 84
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?EndMenuBar@ImGui@@YAXXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7029,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7030,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7032,
+                            "startColumn": 19
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7035,
+                            "startColumn": 109
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7037,
+                            "startColumn": 22
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7038,
+                            "startColumn": 49
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7040,
+                            "startColumn": 129
+                          }
+                        },
+                        "message": {
+                          "text": "'window' may be NULL (Skip this branch)"
+                        }
+                      },
+                      "kinds": [
+                        "branch"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7057,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7058,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                          },
+                          "region": {
+                            "startLine": 7059,
+                            "startColumn": 32
+                          }
+                        },
+                        "message": {
+                          "text": "'window' is dereferenced, but may still be NULL"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "The enum type 'ImGuiButtonFlagsPrivate_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 8223,
+                  "startColumn": 39,
+                  "endLine": 8223,
+                  "endColumn": 96
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "?TabItemEx@ImGui@@YA_NPEAUImGuiTabBar@@PEBDPEA_NH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2854,
+                  "startColumn": 125,
+                  "endLine": 2854,
+                  "endColumn": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2859,
+                  "startColumn": 99,
+                  "endLine": 2859,
+                  "endColumn": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2879,
+                  "startColumn": 41,
+                  "endLine": 2879,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_J_JN@ImGui@@YA_JHM_J0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2854,
+                  "startColumn": 125,
+                  "endLine": 2854,
+                  "endColumn": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_K_JN@ImGui@@YA_KHM_K0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2859,
+                  "startColumn": 99,
+                  "endLine": 2859,
+                  "endColumn": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_K_JN@ImGui@@YA_KHM_K0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2879,
+                  "startColumn": 41,
+                  "endLine": 2879,
+                  "endColumn": 71
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@_K_JN@ImGui@@YA_KHM_K0_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2854,
+                  "startColumn": 125,
+                  "endLine": 2854,
+                  "endColumn": 147
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@NNN@ImGui@@YANHMNN_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2859,
+                  "startColumn": 99,
+                  "endLine": 2859,
+                  "endColumn": 106
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ScaleValueFromRatioT@NNN@ImGui@@YANHMNN_NMM@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 94,
+                  "endLine": 383,
+                  "endColumn": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ImLerp@_J@@YA_J_J0M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2257,
+                  "startColumn": 25,
+                  "endLine": 2257,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ImAtoi@_J@@YAPEBDPEBDPEA_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+                },
+                "region": {
+                  "startLine": 383,
+                  "startColumn": 94,
+                  "endLine": 383,
+                  "endColumn": 108
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ImLerp@_K@@YA_K_K0M@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+                },
+                "region": {
+                  "startLine": 2257,
+                  "startColumn": 25,
+                  "endLine": 2257,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "decoratedName": "??$ImAtoi@N@@YAPEBDPEBDPEAN@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.29.30133.0",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x0059C1B0 -il C:\\Users\\dynam\\AppData\\Local\\Temp\\_CL_daa9a09aast -typedil -f imgui\\imgui_widgets.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1929 -D_MSC_FULL_VER=192930133 -D_MSC_BUILD=0 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -GF -Og -Ot -Oy -Oi -ltcg -DCODE_ANALYSIS -D_CRT_SECURE_NO_WARNINGS -DNDEBUG -D_CONSOLE -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -permissive- -Zc:wchar_t -Zc:forScope -std:c++20 -Fox64\\Release\\imgui_widgets.obj -Fdx64\\Release\\vc142.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\dynam\\Game Reversal\\ApexLegends-SDK\\Apex Legends SDK - D3D9\\Apex Legends SDK -analyze:rulesetdirectory ;C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX86\\x86\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files (x86)\\Microsoft DirectX SDK (June 2010)\\Include -I C:\\Program Files\\Python39\\include -I C:\\Users\\dynam\\Game Reversal\\ApexLegends-SDK\\Apex Legends SDK - D3D9\\pybind11-2.8.1\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\atlmfc\\include -external:I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.20348.0\\cppwinrt -external:I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um -I C:\\Program Files (x86)\\Windows Kits\\NETFXSDK\\4.8\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "deec5e74fb66ffca6cb49f5e225983bb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files (x86)/Microsoft DirectX SDK (June 2010)/Include/d3dx9math.inl"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ca4ba28fa34ec97fd50fc5b184687363"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4187c5fff31073648cdc34a00857bf6f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/Utilities/utils.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "05c6c573ecec955a296d4fc15a7967e7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/SDK/Entity/LocalEntity.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "54da6086a5a53b6620a1e90f9499a08c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/SDK/Entity/BaseEntity.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "17e212627e751335e991daeea39f7658"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/SDK/Engine/Engine.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "4fbf2e77aaebcbd9ccbc4996634acfdc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/Memory/Driver/Driver.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "5a119b5f0be616590b8059b2e00d9ecb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/overlay/rendering/overlay.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "92f2dada5ce19ba1fe688cdd578ba2b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/overlay/rendering/overlay.h"
+          },
+          "hashes": {
+            "md5": "2b68dfc780c685a53f86f6f639bac9a1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/overlay/rendering/drawings.h"
+          },
+          "hashes": {
+            "md5": "1dc92940b8b37ace2674299fb6736813"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9.h"
+          },
+          "hashes": {
+            "md5": "d296189c1d761aa0e1c2daf3b8b592b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9.h"
+          },
+          "hashes": {
+            "md5": "05da735f3db2fe7524da8988539ced99"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/rpcsal.h"
+          },
+          "hashes": {
+            "md5": "fec1415e1273d783e79090571a83934e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9types.h"
+          },
+          "hashes": {
+            "md5": "8e48f8449e75f4f6035595516c31ec58"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3d9caps.h"
+          },
+          "hashes": {
+            "md5": "2cf8710501d6c3aed8ebf7042df8bb21"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9core.h"
+          },
+          "hashes": {
+            "md5": "39a4bd98e0e9d22ba9d51dac286662b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9xof.h"
+          },
+          "hashes": {
+            "md5": "b338de250ff8747b0fac4a0f567a7d3c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9mesh.h"
+          },
+          "hashes": {
+            "md5": "2de6f4320e7eb78f536e29bf27bc3445"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9shader.h"
+          },
+          "hashes": {
+            "md5": "fc510418305749392ea05d614300b074"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9effect.h"
+          },
+          "hashes": {
+            "md5": "d23677a843bbc1588ee1da62b56a5ccc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9tex.h"
+          },
+          "hashes": {
+            "md5": "cbf7dc6a3522b1509ade6278f8ff00c5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9shape.h"
+          },
+          "hashes": {
+            "md5": "de5f515b74b8472c5283d840c8327143"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files (x86)/microsoft directx sdk (june 2010)/include/d3dx9anim.h"
+          },
+          "hashes": {
+            "md5": "3c2501eaff09346d6c30086d8eb2c6c9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/imconfig.h"
+          },
+          "hashes": {
+            "md5": "eb87b04c872f76ef13a39f61c1adefbd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/imgui_impl_dx9.h"
+          },
+          "hashes": {
+            "md5": "0a9deb01379d2ee460168f760ddbf98b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/imgui_impl_win32.h"
+          },
+          "hashes": {
+            "md5": "ed08f1cfc482698cadc185934296093d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/ksk.h"
+          },
+          "hashes": {
+            "md5": "eec19b4526375c9a5424951ab18f5546"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/unknowncontroller.h"
+          },
+          "hashes": {
+            "md5": "ee5bb9db429e24ec02f0018d18f4b8eb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/fontawesome.h"
+          },
+          "hashes": {
+            "md5": "a602d588b3df4b7573cb701cb63feaa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/iconsfontawesome.h"
+          },
+          "hashes": {
+            "md5": "c8b8fd712a7b1dbdba4153999991430d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/comfortaa-regular.h"
+          },
+          "hashes": {
+            "md5": "df5e57779f9a8dabea9892f41ec6cf56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/imgui/comfortaa-bold.h"
+          },
+          "hashes": {
+            "md5": "1e92985e3ada6cd47a7fbe898e2e4c13"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/utilities/globals.h"
+          },
+          "hashes": {
+            "md5": "2428a8e6cf1cd2917dbfa5ae95817d39"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/utilities/includes.h"
+          },
+          "hashes": {
+            "md5": "12a46fc9e5b006f8fbc339cf3fe02021"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/engine/offsets.h"
+          },
+          "hashes": {
+            "md5": "d48d8f744898cb0784aae6506491277e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/modules.h"
+          },
+          "hashes": {
+            "md5": "c50e47f8b9f166fd1a2bac4f18f55561"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/overlay/menu/menu.h"
+          },
+          "hashes": {
+            "md5": "0fdbde67732f704f23186cf1649bde57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/sdk/overlay/scene/scene.h"
+          },
+          "hashes": {
+            "md5": "3ff2385a028f2d676bb50537e25efce1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/SDK/Overlay/Rendering/Drawings.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "ae160d45303987f33f13ddf55dd9d44b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/norecoil.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "64db396e7ff61d4cf0f496c7f3eaa364"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/healthbar.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "8e52c496a7defd54e96254496731c5e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/glow.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "14a61f4fd8f0256623a1e048e7df2e27"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/esp.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "add8b5bef115a613591344c77b504b83"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/aimbot.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "ef289bf6bdc1ab0f4304c34fa94d7383"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/pybind11-2.8.1/include/pybind11/pytypes.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "2f5db2a3b14147ce8de039ba7f26eddf"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/pybind11-2.8.1/include/pybind11/detail/internals.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "aeb9643f6ad8cf69a0e68464fc0aa4ec"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/pybind11-2.8.1/include/pybind11/pybind11.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "adf3e8897557ee4ae0fcb5b7add8aabe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/pybind11-2.8.1/include/pybind11/cast.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "81f3bc27011ad733a5125b3929ca6a5f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/main.cpp"
+          },
+          "roles": [
+            "analysisTarget"
+          ],
+          "hashes": {
+            "md5": "4a70a867c5f90feb7ad170204764b0a8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/apex legends sdk/main/modules/pyscripting/scripts.h"
+          },
+          "hashes": {
+            "md5": "14d4802e55e392f0374cba00cb2920ee"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/python.h"
+          },
+          "hashes": {
+            "md5": "2c0971b9055f1d567046215066707277"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/patchlevel.h"
+          },
+          "hashes": {
+            "md5": "80f58376caefe8376e489a4a3e24ce52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyconfig.h"
+          },
+          "hashes": {
+            "md5": "d05b864e86c9798e387d0edab3e39add"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pymacconfig.h"
+          },
+          "hashes": {
+            "md5": "87b0ae703be59e794ac4370a2be4c188"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyport.h"
+          },
+          "hashes": {
+            "md5": "93fa2354cdcb90ff9d613e783b0c097f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/exports.h"
+          },
+          "hashes": {
+            "md5": "f6865ecf062b1806548b92d04826d961"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pymacro.h"
+          },
+          "hashes": {
+            "md5": "99e9401ef9654fd073ed1c0e9e2b385e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pymath.h"
+          },
+          "hashes": {
+            "md5": "79512aface557dda22c940eee51ce42b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pytime.h"
+          },
+          "hashes": {
+            "md5": "8a44a39127e153d926b4be75fa6575b7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/object.h"
+          },
+          "hashes": {
+            "md5": "ffaa301702267fa4ed33fc35d4ccfb28"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/object.h"
+          },
+          "hashes": {
+            "md5": "dd51311f3dfbbc4f648c71c1cd718a1b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pymem.h"
+          },
+          "hashes": {
+            "md5": "2802b646c8b30c9ddc2e5f76499f55f6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/pymem.h"
+          },
+          "hashes": {
+            "md5": "cf821f6528405644983d348f7b4a3265"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/objimpl.h"
+          },
+          "hashes": {
+            "md5": "50ef995fa5c77767844c4e125af3c653"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/objimpl.h"
+          },
+          "hashes": {
+            "md5": "0c877be43af4310f7ea7c8109fb81643"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/typeslots.h"
+          },
+          "hashes": {
+            "md5": "26fa8333f3f15922612f4cfae0c8f5e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyhash.h"
+          },
+          "hashes": {
+            "md5": "67c7a5f202152553598c5627ca3f3a92"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pydebug.h"
+          },
+          "hashes": {
+            "md5": "65e5de5b4ede77078fb763dfbb456d62"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/bytearrayobject.h"
+          },
+          "hashes": {
+            "md5": "ab9daee354bd1a97383d769a33fc0f35"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/bytearrayobject.h"
+          },
+          "hashes": {
+            "md5": "46b877eddefe8fd3734478c502617446"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/bytesobject.h"
+          },
+          "hashes": {
+            "md5": "37637aa95ee0cc67a4845a4cfb86def6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/bytesobject.h"
+          },
+          "hashes": {
+            "md5": "651dab4faeeae856f828aa99526a4a49"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/unicodeobject.h"
+          },
+          "hashes": {
+            "md5": "10d2b414a25c615b3fcc5419f3420700"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/unicodeobject.h"
+          },
+          "hashes": {
+            "md5": "79a0df1310427c919791379c5abc27f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/longobject.h"
+          },
+          "hashes": {
+            "md5": "7651876fd0473275a9138bcd42ab9fa3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/longintrepr.h"
+          },
+          "hashes": {
+            "md5": "17b5d5acd11212bb108086c8b131e887"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/boolobject.h"
+          },
+          "hashes": {
+            "md5": "ca8ded9d69f756bb0d72f1721b1412e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/floatobject.h"
+          },
+          "hashes": {
+            "md5": "3349cce7d8a53d0e4a1310f8b1afb801"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/complexobject.h"
+          },
+          "hashes": {
+            "md5": "125515fa530fe10af1c44560c08d47f0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/rangeobject.h"
+          },
+          "hashes": {
+            "md5": "737e5c0da8d24785599c2f3bfae9a60d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/memoryobject.h"
+          },
+          "hashes": {
+            "md5": "fcb9c521ee72ab734d13135b17878ae0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/tupleobject.h"
+          },
+          "hashes": {
+            "md5": "a01219d9c49822c86badb9af559df668"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/tupleobject.h"
+          },
+          "hashes": {
+            "md5": "16889830433c4c45822469ec5863fd52"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/listobject.h"
+          },
+          "hashes": {
+            "md5": "7f359b9a61aee8c6b1485058542dc39a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/listobject.h"
+          },
+          "hashes": {
+            "md5": "7b0aa183d37b75b6719bf8bca6c4819d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/dictobject.h"
+          },
+          "hashes": {
+            "md5": "845f25579fc569e2dd9a4cbe5309eaa1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/dictobject.h"
+          },
+          "hashes": {
+            "md5": "1e690838accc525a5949aec5e6438ae7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/odictobject.h"
+          },
+          "hashes": {
+            "md5": "d9acfd7588d27cd7add94e90c8e30993"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/enumobject.h"
+          },
+          "hashes": {
+            "md5": "ef325605b8543385361518b5851c081c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/setobject.h"
+          },
+          "hashes": {
+            "md5": "ff8e6f5ec6f1e641032b143abd5a9207"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/methodobject.h"
+          },
+          "hashes": {
+            "md5": "b5eaa2b549a3e7ecceefbe8ce7188ba8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/methodobject.h"
+          },
+          "hashes": {
+            "md5": "0b4912d983bc2ad45d36366fc00ec849"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/moduleobject.h"
+          },
+          "hashes": {
+            "md5": "0683dfa2b2d25dbd43558c93a192af0b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/funcobject.h"
+          },
+          "hashes": {
+            "md5": "6336b9578f456a7a266bf44df7a04321"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/classobject.h"
+          },
+          "hashes": {
+            "md5": "83dc1d69945856f2354ddbc9f127cab7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/fileobject.h"
+          },
+          "hashes": {
+            "md5": "e54d85108699315334a5c036b1e75df4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/fileobject.h"
+          },
+          "hashes": {
+            "md5": "88f612ed4c2aa0204e80746566f4ea25"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pycapsule.h"
+          },
+          "hashes": {
+            "md5": "54a50d33250df99f315a6ec7d1288a44"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/code.h"
+          },
+          "hashes": {
+            "md5": "bb2978a9018f1aefadfad4bc176d6100"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/code.h"
+          },
+          "hashes": {
+            "md5": "89586e9199071b670cd0688a498f4049"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyframe.h"
+          },
+          "hashes": {
+            "md5": "a8948706ff10bb1ba1f0e64bcddbec7e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/traceback.h"
+          },
+          "hashes": {
+            "md5": "a6c28a7070f10b6a6a2847e74d682673"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/traceback.h"
+          },
+          "hashes": {
+            "md5": "d4c5fb44d84d52500b86263f66440811"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/sliceobject.h"
+          },
+          "hashes": {
+            "md5": "c15fb702f7d4659132e39447a8c93fdb"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cellobject.h"
+          },
+          "hashes": {
+            "md5": "e2e40e13a61476708a77625765613cf8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/iterobject.h"
+          },
+          "hashes": {
+            "md5": "6161b2201204e887abce3e145277ce55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/genobject.h"
+          },
+          "hashes": {
+            "md5": "4ccfcee403202a0e1f935459a556a820"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pystate.h"
+          },
+          "hashes": {
+            "md5": "7b54772293999aa2b508f92606c90004"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/pystate.h"
+          },
+          "hashes": {
+            "md5": "9bb887db04e61c6ca0c5e57d7aa94c53"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/initconfig.h"
+          },
+          "hashes": {
+            "md5": "0b20189a3887d54dc11484969874e5d5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/descrobject.h"
+          },
+          "hashes": {
+            "md5": "8ed80d256991bd5360260843373585aa"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/genericaliasobject.h"
+          },
+          "hashes": {
+            "md5": "8f84875a052bf2cc69c8695ab9ce8bc0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/warnings.h"
+          },
+          "hashes": {
+            "md5": "83c2556bcbc5044047f48a39c3013b8b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/weakrefobject.h"
+          },
+          "hashes": {
+            "md5": "0889b539b8f991ebdcc305387bc38ce6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/structseq.h"
+          },
+          "hashes": {
+            "md5": "65440383ae882b4af9a6a807bf172466"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/namespaceobject.h"
+          },
+          "hashes": {
+            "md5": "d1bfc0a0ad580b13ed0641d02a715744"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/picklebufobject.h"
+          },
+          "hashes": {
+            "md5": "6a936e7fb222a67c334f6dd6e547e757"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/codecs.h"
+          },
+          "hashes": {
+            "md5": "eed443f27159cb2140a7f720b9cb8f96"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyerrors.h"
+          },
+          "hashes": {
+            "md5": "7b6a6ca610b6078bf74ef460320ad61a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/pyerrors.h"
+          },
+          "hashes": {
+            "md5": "3212c570c9a7cdc3a65b9a17a05cb15a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pythread.h"
+          },
+          "hashes": {
+            "md5": "8cac2ccb84b10f563346a7a16bda50fe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/context.h"
+          },
+          "hashes": {
+            "md5": "dec120c5e180829ee23b1165c8e36c9a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyarena.h"
+          },
+          "hashes": {
+            "md5": "6de4423355943385f1863fad72009b75"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/modsupport.h"
+          },
+          "hashes": {
+            "md5": "6d16ddcdf08569c2dd71c15bdcdf4f5d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/compile.h"
+          },
+          "hashes": {
+            "md5": "66df2836536e8e532cac5d02159c7525"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pythonrun.h"
+          },
+          "hashes": {
+            "md5": "a85003298998cd824e00b05e31a24507"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pylifecycle.h"
+          },
+          "hashes": {
+            "md5": "d365f9ea525ade13ba6294abf37dfa82"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/pylifecycle.h"
+          },
+          "hashes": {
+            "md5": "080a888e791517a54fa349bcd7ba75ac"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/ceval.h"
+          },
+          "hashes": {
+            "md5": "29f0f48a5c11fbc16a2a9c9c6dd3d376"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/ceval.h"
+          },
+          "hashes": {
+            "md5": "0c2b79104716aa8f6d80d0d1926c9d69"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/sysmodule.h"
+          },
+          "hashes": {
+            "md5": "115bcac4357b82f0855cf38ea5242a5a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/sysmodule.h"
+          },
+          "hashes": {
+            "md5": "9d5f053acfdf089046052333a53f43dd"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/osmodule.h"
+          },
+          "hashes": {
+            "md5": "bcb8eba549031e5dd8f15aed24297eb3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/intrcheck.h"
+          },
+          "hashes": {
+            "md5": "f19f4a92e22948cec33979d28cdacd90"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/import.h"
+          },
+          "hashes": {
+            "md5": "b143bf263899cd639f740ef27ab1285b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/import.h"
+          },
+          "hashes": {
+            "md5": "4132ed73cfde42ac3697ed8c35340f1e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/abstract.h"
+          },
+          "hashes": {
+            "md5": "99833d27b4f1ab36510acf2b70f44669"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/abstract.h"
+          },
+          "hashes": {
+            "md5": "5edbc6b1e63ac79824e59f4bd8b63f4c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/bltinmodule.h"
+          },
+          "hashes": {
+            "md5": "be92944a8f488c10556bca4885e85a09"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/eval.h"
+          },
+          "hashes": {
+            "md5": "9c1feb8aa2baccb1c15978e4ad71a31c"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyctype.h"
+          },
+          "hashes": {
+            "md5": "91891583393561856b0c66d384a1b6e9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pystrtod.h"
+          },
+          "hashes": {
+            "md5": "101150daa7bbdad4deb2376b000914a6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pystrcmp.h"
+          },
+          "hashes": {
+            "md5": "1d69651494533aa0fb597a48341ce0c8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/fileutils.h"
+          },
+          "hashes": {
+            "md5": "0fb6ada07cc214ca1e9fdae9524d685e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/fileutils.h"
+          },
+          "hashes": {
+            "md5": "2809a42e8f70617a0aa327332b4cd452"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/pyfpe.h"
+          },
+          "hashes": {
+            "md5": "bbc7515ebd44c181429de06707aa39e0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/tracemalloc.h"
+          },
+          "hashes": {
+            "md5": "22cb28f5c382651bb890336c1777f98f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/embed.h"
+          },
+          "hashes": {
+            "md5": "42ad3db9d7dca2b8b29eb17bdedeeafe"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/attr.h"
+          },
+          "hashes": {
+            "md5": "e81fb03da8338704f2e2655de8492a81"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/common.h"
+          },
+          "hashes": {
+            "md5": "729cfe072879de28483c07171acf8957"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/frameobject.h"
+          },
+          "hashes": {
+            "md5": "52d5b8ff577bb31991ffea0783efba67"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/python39/include/cpython/frameobject.h"
+          },
+          "hashes": {
+            "md5": "c0d6c91df7aefdcc7bf656e6b5693eb1"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/buffer_info.h"
+          },
+          "hashes": {
+            "md5": "4ade97ca2fdf6ba6ecea9144104a033b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/descr.h"
+          },
+          "hashes": {
+            "md5": "b2bc1791bc7879f1072487961e0d8418"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/type_caster_base.h"
+          },
+          "hashes": {
+            "md5": "f63b1d8c6343a3f61209076ad5a86870"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/typeid.h"
+          },
+          "hashes": {
+            "md5": "fc0fe3493eef2927b74d9a5f3de7c4ba"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/gil.h"
+          },
+          "hashes": {
+            "md5": "6c4579e5ccaa57362e367bd07b086105"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/options.h"
+          },
+          "hashes": {
+            "md5": "4c2e7357f5b664134c9a4cbec3c04a03"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/class.h"
+          },
+          "hashes": {
+            "md5": "1504c42911b3afbe5245f01e64a1eacc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/detail/init.h"
+          },
+          "hashes": {
+            "md5": "a89e79295413646c1f384ed0b4442e41"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/dynam/game reversal/apexlegends-sdk/apex legends sdk - d3d9/pybind11-2.8.1/include/pybind11/eval.h"
+          },
+          "hashes": {
+            "md5": "6ee71be0df2d0e122d48a4691707edfc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_internal.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "df8ca6a237f85c8d592e49924dd83e55"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imgui_widgets.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "9dacf0bc8e6fe4782578e91050ffa687"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/dynam/Game Reversal/ApexLegends-SDK/Apex Legends SDK - D3D9/Apex Legends SDK/imgui/imstb_textedit.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "md5": "402f60752d999a5b9b340cb0b84ebe1a"
+          }
+        }
+      ]
+    }
+  ]
+}

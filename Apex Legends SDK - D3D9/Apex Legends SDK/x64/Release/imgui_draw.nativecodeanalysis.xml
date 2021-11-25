@@ -1,0 +1,1843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2105</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IH@Z</DECORATED>
+    <FUNCLINE>2105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2106</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IM@Z</DECORATED>
+    <FUNCLINE>2106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::VtxOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::VtxOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::TextureId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::TextureId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1570</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1586</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1598</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1653</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>2335</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::IsNavInputTest</FUNCTION>
+    <DECORATED>?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z</DECORATED>
+    <FUNCLINE>2335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1315</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetFontOffsetForIndex_internal</FUNCTION>
+    <DECORATED>?stbtt_GetFontOffsetForIndex_internal@@YAHPEAEH@Z</DECORATED>
+    <FUNCLINE>1302</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1476</LINE>
+      <COLUMN>76</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1476</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1496</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1504</LINE>
+      <COLUMN>51</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1516</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1516</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>59</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1520</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1524</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1524</LINE>
+      <COLUMN>59</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1524</LINE>
+      <COLUMN>96</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1524</LINE>
+      <COLUMN>106</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1522</LINE>
+      <COLUMN>95</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1522</LINE>
+      <COLUMN>105</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1533</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1534</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1540</LINE>
+      <COLUMN>68</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_FindGlyphIndex</FUNCTION>
+    <DECORATED>stbtt_FindGlyphIndex</DECORATED>
+    <FUNCLINE>1461</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1581</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyfOffset</FUNCTION>
+    <DECORATED>?stbtt__GetGlyfOffset@@YAHPEBUstbtt_fontinfo@@H@Z</DECORATED>
+    <FUNCLINE>1568</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1582</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyfOffset</FUNCTION>
+    <DECORATED>?stbtt__GetGlyfOffset@@YAHPEBUstbtt_fontinfo@@H@Z</DECORATED>
+    <FUNCLINE>1568</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1578</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyfOffset</FUNCTION>
+    <DECORATED>?stbtt__GetGlyfOffset@@YAHPEBUstbtt_fontinfo@@H@Z</DECORATED>
+    <FUNCLINE>1568</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1579</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyfOffset</FUNCTION>
+    <DECORATED>?stbtt__GetGlyfOffset@@YAHPEBUstbtt_fontinfo@@H@Z</DECORATED>
+    <FUNCLINE>1568</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1660</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphShapeTT</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphShapeTT@@YAHPEBUstbtt_fontinfo@@HPEAPEAUstbtt_vertex@@@Z</DECORATED>
+    <FUNCLINE>1639</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1661</LINE>
+      <COLUMN>48</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphShapeTT</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphShapeTT@@YAHPEBUstbtt_fontinfo@@HPEAPEAUstbtt_vertex@@@Z</DECORATED>
+    <FUNCLINE>1639</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1663</LINE>
+      <COLUMN>56</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphShapeTT</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphShapeTT@@YAHPEBUstbtt_fontinfo@@HPEAPEAUstbtt_vertex@@@Z</DECORATED>
+    <FUNCLINE>1639</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1758</LINE>
+      <COLUMN>55</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphShapeTT</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphShapeTT@@YAHPEBUstbtt_fontinfo@@HPEAPEAUstbtt_vertex@@@Z</DECORATED>
+    <FUNCLINE>1639</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>1838</LINE>
+      <COLUMN>33</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphShapeTT</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphShapeTT@@YAHPEBUstbtt_fontinfo@@HPEAPEAUstbtt_vertex@@@Z</DECORATED>
+    <FUNCLINE>1639</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2277</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphHMetrics</FUNCTION>
+    <DECORATED>stbtt_GetGlyphHMetrics</DECORATED>
+    <FUNCLINE>2273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2278</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphHMetrics</FUNCTION>
+    <DECORATED>stbtt_GetGlyphHMetrics</DECORATED>
+    <FUNCLINE>2273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2280</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphHMetrics</FUNCTION>
+    <DECORATED>stbtt_GetGlyphHMetrics</DECORATED>
+    <FUNCLINE>2273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2281</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphHMetrics</FUNCTION>
+    <DECORATED>stbtt_GetGlyphHMetrics</DECORATED>
+    <FUNCLINE>2273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2281</LINE>
+      <COLUMN>106</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphHMetrics</FUNCTION>
+    <DECORATED>stbtt_GetGlyphHMetrics</DECORATED>
+    <FUNCLINE>2273</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2304</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphKernInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphKernInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2310</LINE>
+      <COLUMN>34</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphKernInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphKernInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2285</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2351</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetCoverageIndex</FUNCTION>
+    <DECORATED>?stbtt__GetCoverageIndex@@YAHPEAEH@Z</DECORATED>
+    <FUNCLINE>2315</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2329</LINE>
+      <COLUMN>50</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetCoverageIndex</FUNCTION>
+    <DECORATED>?stbtt__GetCoverageIndex@@YAHPEAEH@Z</DECORATED>
+    <FUNCLINE>2315</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2401</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphClass</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphClass@@YAHPEAEH@Z</DECORATED>
+    <FUNCLINE>2374</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2385</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphClass</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphClass@@YAHPEAEH@Z</DECORATED>
+    <FUNCLINE>2374</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2448</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2458</LINE>
+      <COLUMN>79</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2531</LINE>
+      <COLUMN>79</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2532</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2473</LINE>
+      <COLUMN>81</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2495</LINE>
+      <COLUMN>94</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>2495</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__GetGlyphGPOSInfoAdvance</FUNCTION>
+    <DECORATED>?stbtt__GetGlyphGPOSInfoAdvance@@YAHPEBUstbtt_fontinfo@@HH@Z</DECORATED>
+    <FUNCLINE>2428</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3147</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__rasterize_sorted_edges</FUNCTION>
+    <DECORATED>?stbtt__rasterize_sorted_edges@@YAXPEAUstbtt__bitmap@@PEAUstbtt__edge@@HHHHPEAX@Z</DECORATED>
+    <FUNCLINE>3137</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3147</LINE>
+      <COLUMN>27</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__rasterize_sorted_edges</FUNCTION>
+    <DECORATED>?stbtt__rasterize_sorted_edges@@YAXPEAUstbtt__bitmap@@PEAUstbtt__edge@@HHHHPEAX@Z</DECORATED>
+    <FUNCLINE>3137</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3163</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__rasterize_sorted_edges</FUNCTION>
+    <DECORATED>?stbtt__rasterize_sorted_edges@@YAXPEAUstbtt__bitmap@@PEAUstbtt__edge@@HHHHPEAX@Z</DECORATED>
+    <FUNCLINE>3137</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3349</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt__rasterize</FUNCTION>
+    <DECORATED>?stbtt__rasterize@@YAXPEAUstbtt__bitmap@@PEAUstbtt__point@@PEAHHMMMMHHHPEAX@Z</DECORATED>
+    <FUNCLINE>3330</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3582</LINE>
+      <COLUMN>37</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphBitmapSubpixel</FUNCTION>
+    <DECORATED>stbtt_GetGlyphBitmapSubpixel</DECORATED>
+    <FUNCLINE>3553</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3665</LINE>
+      <COLUMN>29</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_BakeFontBitmap_internal</FUNCTION>
+    <DECORATED>?stbtt_BakeFontBitmap_internal@@YAHPEAEHM0HHHHPEAUstbtt_bakedchar@@@Z</DECORATED>
+    <FUNCLINE>3653</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3684</LINE>
+      <COLUMN>42</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_BakeFontBitmap_internal</FUNCTION>
+    <DECORATED>?stbtt_BakeFontBitmap_internal@@YAHPEAEHM0HHHHPEAUstbtt_bakedchar@@@Z</DECORATED>
+    <FUNCLINE>3653</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3824</LINE>
+      <COLUMN>32</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_PackBegin</FUNCTION>
+    <DECORATED>stbtt_PackBegin</DECORATED>
+    <FUNCLINE>3797</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3906</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__h_prefilter</FUNCTION>
+    <DECORATED>?stbtt__h_prefilter@@YAXPEAEHHHI@Z</DECORATED>
+    <FUNCLINE>3852</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3854</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3855</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3856</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3857</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3858</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3858</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3859</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3860</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3861</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3863</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3866</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3867</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3869</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3870</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3871</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3868</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3905</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3906</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3907</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3904</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3905</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3906</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>3968</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>Reading invalid data from 'buffer':  the readable size is '_Old_3`kernel_width' bytes, but '3' bytes may be read.</DESCRIPTION>
+    <FUNCTION>stbtt__v_prefilter</FUNCTION>
+    <DECORATED>?stbtt__v_prefilter@@YAXPEAEHHHI@Z</DECORATED>
+    <FUNCLINE>3914</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3916</LINE>
+        <COLUMN>17</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'buffer' is a 8 byte array</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3917</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3918</LINE>
+        <COLUMN>7</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3919</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3920</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'j&lt;w')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3921</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3922</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3923</LINE>
+        <COLUMN>18</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'buffer' is an Output from 'memset' (declared at c:\program files (x86)\microsoft visual studio\2019\community\vc\tools\msvc\14.29.30133\include\vcruntime_string.h:63)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3925</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3928</LINE>
+        <COLUMN>14</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Assume switch ( 'kernel_width' ) resolves to case 2: </MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3929</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3931</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3932</LINE>
+        <COLUMN>59</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3933</LINE>
+        <COLUMN>41</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3930</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>6</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3967</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>7</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3968</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3969</LINE>
+        <COLUMN>35</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3966</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>8</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Continue this loop, (assume 'i&lt;h')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3967</LINE>
+        <COLUMN>9</COLUMN>
+        <KEYEVENT>
+          <ID>9</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '0' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imstb_truetype.h</FILENAME>
+        <LINE>3968</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>10</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>Invalid read from 'buffer[2]', (readable range is 0 to 1)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>4084</LINE>
+      <COLUMN>67</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_PackFontRangesRenderIntoRects</FUNCTION>
+    <DECORATED>stbtt_PackFontRangesRenderIntoRects</DECORATED>
+    <FUNCLINE>4045</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>4094</LINE>
+      <COLUMN>59</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_PackFontRangesRenderIntoRects</FUNCTION>
+    <DECORATED>stbtt_PackFontRangesRenderIntoRects</DECORATED>
+    <FUNCLINE>4045</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>4099</LINE>
+      <COLUMN>59</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_PackFontRangesRenderIntoRects</FUNCTION>
+    <DECORATED>stbtt_PackFontRangesRenderIntoRects</DECORATED>
+    <FUNCLINE>4045</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imstb_truetype.h</FILENAME>
+      <LINE>4447</LINE>
+      <COLUMN>31</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stbtt_GetGlyphSDF</FUNCTION>
+    <DECORATED>stbtt_GetGlyphSDF</DECORATED>
+    <FUNCLINE>4406</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>725</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddPolyline</FUNCTION>
+    <DECORATED>?AddPolyline@ImDrawList@@QEAAXPEBUImVec2@@HI_NM@Z</DECORATED>
+    <FUNCLINE>691</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>725</LINE>
+      <COLUMN>60</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddPolyline</FUNCTION>
+    <DECORATED>?AddPolyline@ImDrawList@@QEAAXPEBUImVec2@@HI_NM@Z</DECORATED>
+    <FUNCLINE>691</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>972</LINE>
+      <COLUMN>46</COLUMN>
+    </SFA>
+    <DEFECTCODE>6255</DEFECTCODE>
+    <DESCRIPTION>_alloca indicates failure by raising a stack overflow exception.  Consider using _malloca instead.</DESCRIPTION>
+    <FUNCTION>ImDrawList::AddConvexPolyFilled</FUNCTION>
+    <DECORATED>?AddConvexPolyFilled@ImDrawList@@QEAAXPEBUImVec2@@HI@Z</DECORATED>
+    <FUNCLINE>946</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2105</LINE>
+      <COLUMN>41</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontAtlasBuildMultiplyRectAlpha8</FUNCTION>
+    <DECORATED>?ImFontAtlasBuildMultiplyRectAlpha8@@YAXQEBEPEAEHHHHH@Z</DECORATED>
+    <FUNCLINE>2103</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2327</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontAtlasBuildWithStbTruetype</FUNCTION>
+    <DECORATED>?ImFontAtlasBuildWithStbTruetype@@YA_NPEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>2149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2328</LINE>
+      <COLUMN>54</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontAtlasBuildWithStbTruetype</FUNCTION>
+    <DECORATED>?ImFontAtlasBuildWithStbTruetype@@YA_NPEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>2149</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2457</LINE>
+      <COLUMN>63</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontAtlasBuildRender8bppRectFromString</FUNCTION>
+    <DECORATED>?ImFontAtlasBuildRender8bppRectFromString@@YAXPEAUImFontAtlas@@HHHHPEBDDE@Z</DECORATED>
+    <FUNCLINE>2453</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2467</LINE>
+      <COLUMN>62</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontAtlasBuildRender32bppRectFromString</FUNCTION>
+    <DECORATED>?ImFontAtlasBuildRender32bppRectFromString@@YAXPEAUImFontAtlas@@HHHHPEBDDI@Z</DECORATED>
+    <FUNCLINE>2463</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>2911</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImFontGlyphRangesBuilder::BuildRanges</FUNCTION>
+    <DECORATED>?BuildRanges@ImFontGlyphRangesBuilder@@QEAAXPEAU?$ImVector@G@@@Z</DECORATED>
+    <FUNCLINE>2904</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3788</LINE>
+      <COLUMN>73</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3788</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3788</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3788</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3789</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3791</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3791</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3791</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3791</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3792</LINE>
+      <COLUMN>75</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3792</LINE>
+      <COLUMN>64</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3792</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3792</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3793</LINE>
+      <COLUMN>78</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3794</LINE>
+      <COLUMN>69</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3795</LINE>
+      <COLUMN>63</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3795</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3795</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3796</LINE>
+      <COLUMN>63</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3796</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '+' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '+' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_draw.cpp</FILENAME>
+      <LINE>3796</LINE>
+      <COLUMN>52</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '&lt;&lt;' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '&lt;&lt;' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>stb_decompress_token</FUNCTION>
+    <DECORATED>?stb_decompress_token@@YAPEBEPEBE@Z</DECORATED>
+    <FUNCLINE>3784</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

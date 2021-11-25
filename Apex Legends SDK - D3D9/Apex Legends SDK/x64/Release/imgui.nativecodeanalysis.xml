@@ -1,0 +1,1486 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2105</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IH@Z</DECORATED>
+    <FUNCLINE>2105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2106</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IM@Z</DECORATED>
+    <FUNCLINE>2106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::VtxOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::VtxOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::TextureId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::TextureId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1570</LINE>
+      <COLUMN>23</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputSource' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1586</LINE>
+      <COLUMN>17</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavLayer' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1598</LINE>
+      <COLUMN>30</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiNavForward' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1653</LINE>
+      <COLUMN>16</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiLogType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGuiContext::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiContext@@QEAA@PEAUImFontAtlas@@@Z</DECORATED>
+    <FUNCLINE>1526</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>2335</LINE>
+      <COLUMN>28</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiInputReadMode' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::IsNavInputTest</FUNCTION>
+    <DECORATED>?IsNavInputTest@ImGui@@YA_NHW4ImGuiInputReadMode@@@Z</DECORATED>
+    <FUNCLINE>2335</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>915</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiColorMod::Col' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiColorMod::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiColorMod@@QEAA@XZ</DECORATED>
+    <FUNCLINE>915</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiColorMod::Col</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::CurrLineTextBaseOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::CurrLineTextBaseOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::PrevLineTextBaseOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::PrevLineTextBaseOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::TextWrapPos' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::TextWrapPos</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::ItemWidth' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::ItemWidth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::ItemFlags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::ItemFlags</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::FocusCounterTabStop' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::FocusCounterTabStop</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::FocusCounterRegular' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::FocusCounterRegular</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::ParentLayoutType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::ParentLayoutType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::LayoutType' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::LayoutType</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::CurrentTableIdx' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::CurrentTableIdx</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::CurrentColumns' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::CurrentColumns</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::StateStorage' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::StateStorage</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::TreeJumpToParentOnPopMask' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::TreeJumpToParentOnPopMask</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavHideHighlightOneFrame' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavHideHighlightOneFrame</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::TreeDepth' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::TreeDepth</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::MenuBarAppending' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::MenuBarAppending</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavHasScroll' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavHasScroll</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavFocusScopeIdCurrent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavFocusScopeIdCurrent</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavLayerActiveMaskNext' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavLayerActiveMaskNext</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavLayerActiveMask' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavLayerActiveMask</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::NavLayerCurrent' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::NavLayerCurrent</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::LastItemStatusFlags' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::LastItemStatusFlags</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_internal.h</FILENAME>
+      <LINE>1732</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiWindowTempData::LastItemId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiWindowTempData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiWindowTempData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1732</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiWindowTempData::LastItemId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3399</LINE>
+      <COLUMN>12</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiContextHookType' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::CallContextHooks</FUNCTION>
+    <DECORATED>?CallContextHooks@ImGui@@YAXPEAUImGuiContext@@W4ImGuiContextHookType@@@Z</DECORATED>
+    <FUNCLINE>3399</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>3634</LINE>
+      <COLUMN>70</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateMouseInputs</FUNCTION>
+    <DECORATED>?UpdateMouseInputs@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>3603</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>4076</LINE>
+      <COLUMN>45</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiCol_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateDebugToolItemPicker</FUNCTION>
+    <DECORATED>?UpdateDebugToolItemPicker@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>4057</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>4548</LINE>
+      <COLUMN>58</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window' contains the same NULL value as 'hovered_window' did. See line 4522 for an earlier location where this can occur</DESCRIPTION>
+    <FUNCTION>FindHoveredWindow</FUNCTION>
+    <DECORATED>?FindHoveredWindow@@YAXXZ</DECORATED>
+    <FUNCLINE>4508</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4510</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4512</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4513</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4514</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4517</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4518</LINE>
+        <COLUMN>11</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4519</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4519</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4521</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4522</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4524</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4528</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4529</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4532</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4533</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4538</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4546</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4547</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4548</LINE>
+        <COLUMN>58</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4550</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4519</LINE>
+        <COLUMN>46</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4519</LINE>
+        <COLUMN>39</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4521</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4522</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4524</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4528</LINE>
+        <COLUMN>15</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4529</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4532</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4533</LINE>
+        <COLUMN>12</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4538</LINE>
+        <COLUMN>38</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4546</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'window' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4547</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4548</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>4548</LINE>
+        <COLUMN>58</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>1929</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiSizeCallbackData::UserData' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiSizeCallbackData::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiSizeCallbackData@@QEAA@XZ</DECORATED>
+    <FUNCLINE>1929</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiSizeCallbackData::UserData</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5340</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiMouseCursor_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::UpdateWindowManualResize</FUNCTION>
+    <DECORATED>?UpdateWindowManualResize@ImGui@@YA_NPEAUImGuiWindow@@AEBUImVec2@@PEAHHQEAIAEBUImRect@@@Z</DECORATED>
+    <FUNCLINE>5303</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5503</LINE>
+      <COLUMN>155</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImDrawCornerFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::RenderWindowDecorations</FUNCTION>
+    <DECORATED>?RenderWindowDecorations@ImGui@@YAXPEAUImGuiWindow@@AEBUImRect@@_NHQEBIM@Z</DECORATED>
+    <FUNCLINE>5465</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>5640</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window-&gt;RootWindowForNav' contains the same NULL value as 'parent_window' did. </DESCRIPTION>
+    <FUNCTION>ImGui::UpdateWindowParentAndRootLinks</FUNCTION>
+    <DECORATED>?UpdateWindowParentAndRootLinks@ImGui@@YAXPEAUImGuiWindow@@H0@Z</DECORATED>
+    <FUNCLINE>5632</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5634</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5635</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5636</LINE>
+        <COLUMN>64</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'parent_window' may be NULL (Skip this branch)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5638</LINE>
+        <COLUMN>59</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this branch, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5640</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Skip this loop, (assume '&lt;branch condition&gt;' is false)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5643</LINE>
+        <COLUMN>33</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5640</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>4</ID>
+          <KIND>branch</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>Enter this loop, (assume '&lt;branch condition&gt;')</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>5640</LINE>
+        <COLUMN>43</COLUMN>
+        <KEYEVENT>
+          <ID>5</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'parent_window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>6334</LINE>
+      <COLUMN>112</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::BringWindowToFocusFront</FUNCTION>
+    <DECORATED>?BringWindowToFocusFront@ImGui@@YAXPEAUImGuiWindow@@@Z</DECORATED>
+    <FUNCLINE>6326</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>6334</LINE>
+      <COLUMN>108</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::BringWindowToFocusFront</FUNCTION>
+    <DECORATED>?BringWindowToFocusFront@ImGui@@YAXPEAUImGuiWindow@@@Z</DECORATED>
+    <FUNCLINE>6326</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>6349</LINE>
+      <COLUMN>82</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::BringWindowToDisplayFront</FUNCTION>
+    <DECORATED>?BringWindowToDisplayFront@ImGui@@YAXPEAUImGuiWindow@@@Z</DECORATED>
+    <FUNCLINE>6340</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>6349</LINE>
+      <COLUMN>78</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::BringWindowToDisplayFront</FUNCTION>
+    <DECORATED>?BringWindowToDisplayFront@ImGui@@YAXPEAUImGuiWindow@@@Z</DECORATED>
+    <FUNCLINE>6340</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8351</LINE>
+      <COLUMN>14</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiPopupPositionPolicy' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::FindBestWindowPosForPopupEx</FUNCTION>
+    <DECORATED>?FindBestWindowPosForPopupEx@ImGui@@YA?AUImVec2@@AEBU2@0PEAHAEBUImRect@@2W4ImGuiPopupPositionPolicy@@@Z</DECORATED>
+    <FUNCLINE>8351</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>8522</LINE>
+      <COLUMN>19</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiDir_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGetDirQuadrantFromDelta</FUNCTION>
+    <DECORATED>?ImGetDirQuadrantFromDelta@@YAHMM@Z</DECORATED>
+    <FUNCLINE>8519</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>9160</LINE>
+      <COLUMN>15</COLUMN>
+    </SFA>
+    <DEFECTCODE>28182</DEFECTCODE>
+    <DESCRIPTION>Dereferencing NULL pointer. 'window' contains the same NULL value as 'g.NavWindow' did. </DESCRIPTION>
+    <FUNCTION>ImGui::NavUpdate</FUNCTION>
+    <DECORATED>?NavUpdate@ImGui@@YAXXZ</DECORATED>
+    <FUNCLINE>8917</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>3</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8919</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8920</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8922</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8923</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8924</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8931</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8932</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8933</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8941</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8959</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>13</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8961</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8961</LINE>
+        <COLUMN>36</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>53</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8960</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8964</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8966</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8967</LINE>
+        <COLUMN>29</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8968</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8969</LINE>
+        <COLUMN>23</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8972</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8976</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8985</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8996</LINE>
+        <COLUMN>19</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>8997</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9001</LINE>
+        <COLUMN>9</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9003</LINE>
+        <COLUMN>66</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9007</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9010</LINE>
+        <COLUMN>17</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9011</LINE>
+        <COLUMN>18</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9014</LINE>
+        <COLUMN>22</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9053</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9054</LINE>
+        <COLUMN>87</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9067</LINE>
+        <COLUMN>20</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9069</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9071</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9074</LINE>
+        <COLUMN>28</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9076</LINE>
+        <COLUMN>24</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9079</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9100</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9105</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9106</LINE>
+        <COLUMN>8</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9110</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9112</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9113</LINE>
+        <COLUMN>32</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9114</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9116</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9119</LINE>
+        <COLUMN>25</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9121</LINE>
+        <COLUMN>26</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9122</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9124</LINE>
+        <COLUMN>27</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9127</LINE>
+        <COLUMN>76</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9150</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9151</LINE>
+        <COLUMN>40</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9152</LINE>
+        <COLUMN>30</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9157</LINE>
+        <COLUMN>76</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9159</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>declaration</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' may be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+        <FILENAME>imgui.cpp</FILENAME>
+        <LINE>9160</LINE>
+        <COLUMN>15</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>usage</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'window' is dereferenced, but may still be NULL</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>11158</LINE>
+      <COLUMN>72</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '-' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '-' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui::DebugNodeColumns</FUNCTION>
+    <DECORATED>?DebugNodeColumns@ImGui@@YAXPEAUImGuiOldColumns@@@Z</DECORATED>
+    <FUNCLINE>11154</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.cpp</FILENAME>
+      <LINE>11366</LINE>
+      <COLUMN>49</COLUMN>
+    </SFA>
+    <DEFECTCODE>26812</DEFECTCODE>
+    <DESCRIPTION>The enum type 'ImGuiTreeNodeFlags_' is unscoped. Prefer 'enum class' over 'enum' (Enum.3).</DESCRIPTION>
+    <FUNCTION>ImGui::DebugNodeWindow</FUNCTION>
+    <DECORATED>?DebugNodeWindow@ImGui@@YAXPEAUImGuiWindow@@PEBD@Z</DECORATED>
+    <FUNCLINE>11356</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2105</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IH@Z</DECORATED>
+    <FUNCLINE>2105</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2106</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImGuiStorage::ImGuiStoragePair::{ctor}</FUNCTION>
+    <DECORATED>??0ImGuiStoragePair@ImGuiStorage@@QEAA@IM@Z</DECORATED>
+    <FUNCLINE>2106</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImGuiStorage::ImGuiStoragePair::&lt;unnamed-tag&gt;::val_p</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::VtxOffset' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::VtxOffset</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui.h</FILENAME>
+      <LINE>2298</LINE>
+      <COLUMN>0</COLUMN>
+    </SFA>
+    <DEFECTCODE>26495</DEFECTCODE>
+    <DESCRIPTION>Variable 'ImDrawCmdHeader::TextureId' is uninitialized. Always initialize a member variable (type.6).</DESCRIPTION>
+    <FUNCTION>ImDrawCmdHeader::{ctor}</FUNCTION>
+    <DECORATED>??0ImDrawCmdHeader@@QEAA@XZ</DECORATED>
+    <FUNCLINE>2298</FUNCLINE>
+    <ADDITIONALINFO>
+      <targetSymbol>ImDrawCmdHeader::TextureId</targetSymbol>
+    </ADDITIONALINFO>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>66</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>257</LINE>
+      <COLUMN>57</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>258</LINE>
+      <COLUMN>89</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>77</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>117</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>98</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\dynam\Game Reversal\ApexLegends-SDK\Apex Legends SDK - D3D9\Apex Legends SDK\imgui\</FILEPATH>
+      <FILENAME>imgui_impl_dx9.cpp</FILENAME>
+      <LINE>272</LINE>
+      <COLUMN>129</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Arithmetic overflow: Using operator '*' on a 4 byte value and then casting the result to a 8 byte value. Cast the value to the wider type before calling operator '*' to avoid overflow (io.2).</DESCRIPTION>
+    <FUNCTION>ImGui_ImplDX9_CreateFontsTexture</FUNCTION>
+    <DECORATED>?ImGui_ImplDX9_CreateFontsTexture@@YA_NXZ</DECORATED>
+    <FUNCLINE>245</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>
