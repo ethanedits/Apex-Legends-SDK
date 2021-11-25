@@ -39,3 +39,6 @@
 *.exe
 *.out
 *.app
+Apex Legends SDK.lib
+Apex Legends SDK.exp
+imgui.ini
