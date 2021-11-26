@@ -14,13 +14,13 @@ bool FileExists(const char* path)
 void WriteCustomSplashScreen()
 {
 	std::filesystem::remove("C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
-	std::filesystem::copy("C:\\Users\\dynam\\Game Reversal\\ApexLegends-SDK\\Apex Legends SDK\\x64\\Release\\resources\\SplashScreen.png", "C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
+	std::filesystem::copy("C:\\Users\\USERNAME\\PATH\\ApexLegends-SDK\\Apex Legends SDK\\x64\\Release\\resources\\SplashScreen.png", "C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
 }
 
 void WriteDefaultSplashScreen()
 {
 	std::filesystem::remove("C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
-	std::filesystem::copy("C:\\Users\\dynam\\Game Reversal\\ApexLegends-SDK\\Apex Legends SDK\\x64\\Release\\resources\\origSplashScreen.png", "C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
+	std::filesystem::copy("C:\\Users\\USERNAME\\PATH\\ApexLegends-SDK\\Apex Legends SDK\\x64\\Release\\resources\\origSplashScreen.png", "C:\\Program Files (x86)\\Origin Games\\Apex\\EasyAntiCheat\\Launcher\\SplashScreen.png");
 }
 
 void OpenApex()
