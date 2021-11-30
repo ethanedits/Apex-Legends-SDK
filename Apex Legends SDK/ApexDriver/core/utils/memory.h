@@ -117,14 +117,14 @@ namespace memory {
 
 		//Used Function and Shellcode from Null's tutorials, this is meant for you to REPLACE, this is DETECTED
 		PVOID* dxgk_routine
-			= reinterpret_cast<PVOID*>(memory::get_system_module_export("\\SystemRoot\\System32\\drivers\\dxgkrnl.sys", "NtSetCompositionSurfaceIndependentFlipInfo"));
+			= reinterpret_cast<PVOID*>(memory::get_system_module_export("\\SystemRoot\\System32\\drivers\\dxgkrnl.sys", "NtOpenCompositionSurfaceSectionInfo"));
 
 		if (!dxgk_routine) {
 			return false;
 		}
 
 		//What is this? - Shellcode https://www.exploit-db.com/docs/english/13019-shell-code-for-beginners.pdf
-		BYTE dxgk_original[] = { 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00 };
+		BYTE dxgk_original[] = { 0x8B, 0x04, 0x24, 0x89, 0x41, 0x44, 0xC7, 0x41, 0x30, 0x0F, 0x00, 0x10 };
 
 		BYTE shell_code_start[]
 		{
@@ -133,7 +133,8 @@ namespace memory {
 
 		BYTE shell_code_end[]
 		{
-			0xFF, 0xE0 // jmp rax
+			0xFF, 0xE0, // jmp rax
+			0xCC
 		};
 
 		RtlSecureZeroMemory(&dxgk_original, sizeof(dxgk_original));
