@@ -4,9 +4,9 @@
 This Project consists of two parts, *Driver* and *Usermode*.
 Since this project utilizes a Kernel Driver you will most likely want to change the ***hooked function*** as well as the *shellcode* that goes along with it. You can change both of these inside ***Memory.h*** in the Driver
 
-Current function: `NtSetCompositionSurfaceIndependentFlipInfo`
+Current function: `NtOpenCompositionSurfaceSectionInfo`
 
-Current shellcode: `0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00, 0x00`
+Current shellcode: `0x8B, 0x04, 0x24, 0x89, 0x41, 0x44, 0xC7, 0x41, 0x30, 0x0F, 0x00, 0x10`
 
 To build this project, please download the ```Windows Driver Kit (WDK)```, and build in **Release | x64**. Build and place *KDMapper* (https://github.com/TheCruZ/kdmapper) in the directory of your build, as the project will attempt to map the driver for you.
 
