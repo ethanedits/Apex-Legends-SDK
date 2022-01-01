@@ -52,3 +52,30 @@ def main():
             if health < 40:        #CYAN
                 pEntity.Glow(0, 255, 255)
 ```
+
+Build Instructions:
+
+```
+1. Switch Build Settings of both Apex Legends SDK and ApexDriver to Release|x64
+
+2. Go to ApexDriver and in Configuration Properties/Driver Signing/General, go to Sign Mode, and turn it Off.
+
+3. Install DirectX9 and Python 3.9
+
+DX9 SDK: https://www.microsoft.com/en-us/download/details.aspx?id=6812
+
+Python 3.9: https://www.python.org/downloads/release/python-399/
+
+OPTIONAL IF PATH IS NOT CORRECT ALREADY:
+4. Add DirectX9 and Python (3.9) Path in Configuration Properties/Linker/Input
+
+DX9 SDK: https://www.microsoft.com/en-us/download/details.aspx?id=6812
+
+Python 3.9: https://www.python.org/downloads/release/python-399/
+
+Default Path:
+$(DXSDK_DIR)Lib\x64\d3d9.lib;$(DXSDK_DIR)Lib\x64\d3dx9.lib;$(DXSDK_DIR)Lib\x86\d3d9.lib;$(DXSDK_DIR)Lib\x86\d3dx9.lib;python39.lib;
+
+```
+
+
