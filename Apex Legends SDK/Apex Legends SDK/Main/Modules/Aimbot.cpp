@@ -39,9 +39,28 @@ void Modules::Aimbot(BaseEntity pEntity, LocalEntity pLocal, Matrix m, AimContex
 
 void Modules::AimbotMove(AimContext* Ctx) {
 
+	int aimKey = 0;
+	switch (MenuSettings::aimbotKeyID) {
+	case 0: // "Right Mouse"
+		aimKey = VK_RBUTTON;
+		break;
+	case 1: // "Left Alt"
+		aimKey = VK_LMENU;
+		break;
+	case 2: // "Left Mouse"
+		aimKey = VK_LBUTTON;
+		break;
+	case 3: // "Left Shift"
+		aimKey = VK_LSHIFT;
+		break;
+	case 4: // "Space"
+		aimKey = VK_SPACE;
+		break;
+	}
+
 	if (Ctx->closestX != 50000 && Ctx->closestY != 50000)
 	{
-		if (GetAsyncKeyState(VK_RBUTTON))
+		if (GetAsyncKeyState(aimKey))
 		{
 			Ctx->aX = (Ctx->closestX - Ctx->crosshairX) / Ctx->aSmoothAmount;
 			Ctx->aY = (Ctx->closestY - Ctx->crosshairY) / Ctx->aSmoothAmount;

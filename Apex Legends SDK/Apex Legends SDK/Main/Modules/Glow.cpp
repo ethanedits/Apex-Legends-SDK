@@ -7,7 +7,7 @@ void Modules::Glow(BaseEntity pEntity, LocalEntity pLocal)
 	int health = pEntity.iHealth();
 	int bleedoutstate = pEntity.isKnocked();
 
-	if (pEntity.iTeam() == pLocal.iTeam()) 
+	if (pEntity.iTeam() == pLocal.iTeam()) // DON'T GLOW ALLIES
 	return;
 
 	if(health <= 300 && health > 180)

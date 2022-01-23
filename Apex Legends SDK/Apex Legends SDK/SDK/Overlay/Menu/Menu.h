@@ -56,7 +56,7 @@ namespace Menu {
 
 		ImGui::SetNextWindowSize(ImVec2(600, 700));
 		ImGui::Begin("Apex Legends SDK", (bool*)0, 0);
-		ImGui::Checkbox("ESP", &MenuSettings::espEnabled);
+		ImGui::Checkbox("Box ESP", &MenuSettings::espEnabled);
 		ImGui::Checkbox("Snaplines", &MenuSettings::snaplinesEnabled);
 		ImGui::Checkbox("Healthbar", &MenuSettings::healthbarEnabled);
 		ImGui::Checkbox("Glow ESP", &MenuSettings::glowEnabled);
@@ -68,6 +68,9 @@ namespace Menu {
 		ImGui::Spacing();
 
 		ImGui::Checkbox("Aimbot", &MenuSettings::aimbotEnabled);
+		ImGui::Text("Aim Key"); 
+		ImGui::SameLine();
+		ImGui::Combo(("Hotkey"), &MenuSettings::aimbotKeyID, MenuSettings::aimbotKeys, IM_ARRAYSIZE(MenuSettings::aimbotKeys));
 		ImGui::SliderInt("Aimbot Smoothness", &MenuSettings::aimbotSmoothness, 1, 15);
 		ImGui::Checkbox("Aimbot FOV Circle", &MenuSettings::fovCircle);
 		ImGui::SliderInt("Aimbot FOV", &MenuSettings::aimbotFOV, 10, 500);

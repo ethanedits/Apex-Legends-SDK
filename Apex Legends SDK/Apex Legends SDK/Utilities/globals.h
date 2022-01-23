@@ -19,4 +19,8 @@ namespace MenuSettings {
 	int aimbotFOV = 300;
 	bool snaplinesEnabled = false;
 	bool userScriptsEnabled = false;
+
+
+	int aimbotKeyID = 0;
+	const char* aimbotKeys[3] = { "Right Mouse", "Left Alt", "Left Mouse" };
 }
