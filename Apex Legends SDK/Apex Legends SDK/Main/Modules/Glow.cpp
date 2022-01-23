@@ -38,4 +38,8 @@ void Modules::Glow(BaseEntity pEntity, LocalEntity pLocal)
 	{
 		pEntity.Glow(0.f, 255.f, 255.f); //cyan
 	}
+	else if (bleedoutstate != 0)
+	{
+		pEntity.Glow(136.f, 0.f, 255.f); //purple
+	}
 }
