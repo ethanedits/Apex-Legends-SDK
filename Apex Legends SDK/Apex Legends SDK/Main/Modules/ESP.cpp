@@ -18,7 +18,9 @@ void Modules::ESP(BaseEntity pEntity, LocalEntity pLocal, Matrix m, float distan
 		int boxColor;
 
 		if (pEntity.iTeam() == pLocal.iTeam())
-			boxColor = 0xff42cbf5; //Hex Color (TEAM)
+		return;
+			//If you want Team ESP uncomment the line below
+			//boxColor = 0xff42cbf5; //Hex Color (TEAM)
 		else
 			boxColor = 0xfffc0303; //Hex Color (ENEMY)
 

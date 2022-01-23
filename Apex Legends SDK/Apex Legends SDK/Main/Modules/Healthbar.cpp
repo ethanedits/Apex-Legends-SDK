@@ -12,7 +12,7 @@ void DrawHealthbars(float x, float y, float width, float height, int thickness, 
 	DrawBorderBox(x - (thickness + 5) - 1, y - 1, thickness + 1, height + 1, 1, ARGB(255, 0, 0, 0));
 }
 
-void Modules::Healthbar(BaseEntity pEntity, Matrix m, float distance)
+void Modules::Healthbar(BaseEntity pEntity, LocalEntity pLocal, Matrix m, float distance)
 {
 	Vector3 entHead = pEntity.BonePosition(8); // get head position
 	Vector3 w2sHead = entHead.ScreenPosition(m); if (w2sHead.z <= 0.f) return;
@@ -25,5 +25,8 @@ void Modules::Healthbar(BaseEntity pEntity, Matrix m, float distance)
 	float middle = w2sPos.x - (width / 2.f);
 
 	if (distance <= 8000)
+		if (pEntity.iTeam() == pLocal.iTeam())
+			return;
+			
 		DrawHealthbars(middle, w2sHead.y, width, height, 2, pEntity.iHealth(), pEntity.iShield());
 }

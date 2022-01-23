@@ -29,7 +29,7 @@ namespace Scene {
 
 				//Glow ESP
 				if (MenuSettings::glowEnabled)
-					Modules::Glow(pEntity);
+					Modules::Glow(pEntity, pLocal);
 
 				//Aimbot
 				if (MenuSettings::aimbotEnabled)
@@ -42,7 +42,7 @@ namespace Scene {
 
 				//Healthbar
 				if (MenuSettings::healthbarEnabled)
-					Modules::Healthbar(pEntity, m, distance);
+					Modules::Healthbar(pEntity, pLocal, m, distance);
 			}
 		}
 

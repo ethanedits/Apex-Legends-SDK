@@ -6,7 +6,7 @@ namespace Modules {
 	void Aimbot(BaseEntity pEntity, LocalEntity pLocal, Matrix m, AimContext* Ctx, int index);
 	void AimbotMove(AimContext* Ctx);
 	void NoRecoil(LocalEntity pLocal);
-	void Glow(BaseEntity pEntity);
+	void Glow(BaseEntity pEntity, LocalEntity pLocal);
 	void ESP(BaseEntity pEntity, LocalEntity pLocal, Matrix m, float distance);
-	void Healthbar(BaseEntity pEntity, Matrix m, float distance);
+	void Healthbar(BaseEntity pEntity, LocalEntity pLocal, Matrix m, float distance);
 }
