@@ -27,5 +27,5 @@ def main():
                 pEntity.Glow(0, 0, 255)
             if health < 40:        #CYAN
                 pEntity.Glow(0, 255, 255)
-            if bleedoutstate != 0: #purple
+            if bleedoutstate != 0: #PURPLE
                 pEntity.Glow(136, 0, 255)
