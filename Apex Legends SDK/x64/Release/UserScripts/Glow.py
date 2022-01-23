@@ -11,6 +11,8 @@ def main():
             #pEntity.GlowStyle(101,101,46,90)
 
             health = pEntity.iHealth() + pEntity.iShield()
+            bleedoutstate = pEntity.isKnocked()
+
             if 180 <= health <= 300: #WHITE
                 pEntity.Glow(255, 255, 255)
             if 160 <= health <= 179: #GREEN
@@ -25,3 +27,5 @@ def main():
                 pEntity.Glow(0, 0, 255)
             if health < 40:        #CYAN
                 pEntity.Glow(0, 255, 255)
+            if bleedoutstate != 0: #purple
+                pEntity.Glow(136, 0, 255)
